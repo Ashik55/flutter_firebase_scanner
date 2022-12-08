@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Nijhum Scanner')),
+        appBar: AppBar(title: const Text('ML Scanner')),
         body: showScanner
             ? MobileScanner(
             allowDuplicates: false,
